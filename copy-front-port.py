@@ -9,6 +9,8 @@ load_dotenv()
 # load API token from enviroment
 token = os.getenv('TOKEN')
 
+print("Copy FRONT ports to REAR ports")
+
 # Ask user for input until correct device was chosen
 device_chosen = False
 while device_chosen == False:
